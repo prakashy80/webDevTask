@@ -1,0 +1,102 @@
+#main-body {
+    height: 100%;
+    width: 60%;
+    border: 1px solid black;
+    margin: auto;
+    color: rgb(194, 73, 194);
+}
+
+.design-right {
+    height: 0;
+    width: 70px;
+    /* background-color: beige; */
+    float: right;
+    border-top: 30px solid rgb(194, 73, 194);
+    border-left: 44px solid transparent;
+    border-bottom: 38px solid rgb(194, 73, 194);
+}
+
+.design-left {
+    height: 0;
+    width: 70px;
+    float: left;
+    border-top: 30px solid rgb(194, 73, 194);
+    border-right: 44px solid transparent;
+    border-bottom: 38px solid rgb(194, 73, 194);
+}
+
+section {
+    text-align: center;
+    /* margin: 20px 60px; */
+}
+
+h3 {
+    color: #000;
+}
+
+#top-heading {
+    width: 250px;
+    background-color: rgb(194, 73, 194);
+    color: #fff;
+    padding: 7px;
+    border-radius: 8px;
+}
+
+#comapany-name {
+    clear: both;
+    border-bottom: 1px dashed rgb(194, 73, 194);
+    margin: 44px 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#comapany-name p {
+    margin-bottom: 36px;
+}
+
+h4 {
+    width: 250px;
+    background-color: rgb(194, 73, 194);
+    color: #fff;
+    padding: 7px;
+    border-radius: 8px;
+    margin: auto;
+}
+
+img {
+    height: 130px;
+    width: 120px;
+    border-radius: 50%;
+}
+
+.team {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.heading-center {
+    margin-top: 16px;
+}
+
+#last-design {
+    float: none;
+}
+figcaption{
+    width: 116px;
+}
+.emp-name{
+    color: #000;
+}
+@media (max-width:540px) {
+    .heading-center{
+        clear: both;
+    }
+    #top-heading{
+        width: 220px;
+    }
+    h4{
+        width: 200px;
+    }
+}
